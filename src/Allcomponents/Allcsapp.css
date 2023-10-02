@@ -1,0 +1,517 @@
+.Navbarmain {
+  background-color: rgb(65, 88, 208);
+  height: 15vh;
+}
+.Navbarmain .navbar .Heading {
+  margin-left: 12vw;
+  font-size: 30px;
+  color: white;
+}
+#navbarSupportedContent {
+  margin-left: 1vw;
+}
+#navbarSupportedContent ul {
+  margin-top: 3vh;
+}
+#navbarSupportedContent ul li a {
+  margin-left: 2vw;
+  font-size: 17px;
+  color: white;
+}
+#navbarSupportedContent ul li .dropdown-menu {
+  background-color: rgb(65, 88, 208);
+  color: white;
+}
+#navbarSupportedContent ul li .dropdown-menu a {
+  width: 15vw;
+}
+.SEOmain {
+  width: 100%;
+  height: 84vh;
+  display: flex;
+  background-color: rgb(65, 88, 208);
+  gap: 1vw;
+  border-bottom-right-radius: 50% 30%;
+  border-bottom-left-radius: 50% 20%;
+}
+.SEOmain .Rightpartseo {
+  width: 38vw;
+  height: 70vh;
+  border-radius: 20% 20%;
+  margin-top: 2vh;
+  position: relative;
+}
+
+.SEOmain .Rightpartseo img {
+  width: 38vw;
+  height: 70vh;
+  object-fit: cover;
+  border-radius: 100% / 125% 125% 80% 80%;
+  opacity: 0.6;
+  filter: brightness(120%);
+  z-index: 1;
+}
+.SEOmain .leftpartseo {
+  margin-left: 13vw;
+  margin-top: 14vh;
+}
+.SEOmain .leftpartseo h1 {
+  color: white;
+  font-size: 100px;
+}
+.SEOmain .leftpartseo h2 {
+  color: white;
+  font-size: 40px;
+  margin-top: 5vh;
+}
+.SEOmain .leftpartseo button {
+  width: 10vw;
+  height: 7vh;
+  border-radius: 40% 40% 40% 40%;
+  background-color: rgba(18, 36, 238, 0.85);
+  color: white;
+  border-style: none;
+}
+
+.Searching h1 {
+  margin-left: 20vw;
+  margin-top: 10vh;
+  color: blue;
+}
+.Searching .Searchingdownpart {
+  display: flex;
+  margin-top: 10vh;
+  gap: 2vw;
+}
+.Searching .Searchingdownpart .Searchingimg {
+  width: 35vw;
+  height: 50vh;
+  margin-left: 12vw;
+}
+.Searching .Searchingdownpart .Searchingimg img {
+  width: 35vw;
+  height: 50vh;
+  border-radius: 5% 5% 5% 5%;
+}
+.Searching .Searchingdownpart .Searchingheading h2 {
+  color: blue;
+  font-weight: 200;
+  font-size: 30px;
+}
+.Searching .Searchingdownpart .Searchingheading p {
+  width: 35vw;
+  font-size: 22px;
+  font-weight: 200;
+}
+.Searching .Searching-bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  gap: 4vw;
+}
+.superiority {
+  width: 100%;
+  display: flex;
+  gap: 5vw;
+}
+.superiority .superioritysubmain h3 {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-left: 12vw;
+  margin-top: 20vh;
+}
+.superiority .superioritysubmain .superioritysubmainheading {
+  display: flex;
+  gap: 1.5vw;
+  margin-top: 8vh;
+  margin-left: 12vw;
+}
+.superiority .superioritysubmain .superioritysubmainheading h2 {
+  color: blue;
+  font-size: 20px;
+}
+.superiority
+  .superioritysubmain
+  .superioritysubmainheading
+  .superioritysubmainrightside {
+  margin-top: 2vh;
+}
+.superiority
+  .superioritysubmain
+  .superioritysubmainheading
+  .superioritysubmainrightside
+  h1 {
+  font-size: 23px;
+}
+.superiority
+  .superioritysubmain
+  .superioritysubmainheading
+  .superioritysubmainrightside
+  p {
+  font-size: 21px;
+  width: 30vw;
+  font-weight: 200;
+}
+.superiority .superiorityimg {
+  margin-top: 20vh;
+  width: 40vw;
+  height: 88vh;
+  object-fit: contain;
+  border-radius: 100% / 125% 125% 80% 80%;
+  position: relative;
+}
+.superiority .superiorityimg img {
+  width: 40vw;
+  height: 100vh;
+  border-radius: 100% / 125% 125% 80% 80%;
+  filter: contrast(50%);
+  opacity: 0.8;
+}
+.superiority .superiorityimg .superiorityimgblank {
+  width: 40vw;
+  height: 100vh;
+  position: absolute;
+  border-radius: 100% / 125% 125% 80% 80%;
+  border-color: rgb(22, 232, 232);
+  border-style: solid;
+  top: 0;
+  margin-top: 20vh;
+  margin-left: -4vw;
+}
+
+.Partnersmain {
+  display: flex;
+  gap: 10vw;
+  width: 100%;
+}
+.Partnersmain .Partnersection {
+  margin-left: 12vw;
+  margin-top: 10vh;
+  width: 35vw;
+}
+.Partnersmain .Partnersection .Partnersubmain h1 {
+  font-size: 55px;
+  width: 35vw;
+}
+.Partnersmain .Partnersection .Partnersubmain p {
+  font-size: 21px;
+  margin-top: 10vh;
+  font-weight: 100;
+}
+.Partnersmain .Partnersectionright .Partnersectiondivright {
+  margin-top: 10vh;
+  width: 25vw;
+  height: 59vh;
+  box-shadow: 4px 5px 6px rgb(176, 174, 174);
+  border-radius: 20px 20px 20px 20px;
+}
+.Partnersmain .Partnersectionright .Partnersectiondivright img {
+  width: 130px;
+  margin-left: 3vw;
+  margin-top: 5vh;
+}
+.Partnersmain .Partnersectionright .Partnersectiondivright h6 {
+  font-size: 21px;
+  width: 15vw;
+  font-weight: 600;
+  margin-left: 3.5vw;
+  margin-top: 3vh;
+}
+.Partnersmain
+  .Partnersectionright
+  .Partnersectiondivright
+  .Partnersectionsubdivright {
+  display: flex;
+  gap: 1vw;
+}
+.Partnersmain
+  .Partnersectionright
+  .Partnersectiondivright
+  .Partnersectionsubdivright
+  img {
+  width: 80px;
+  height: 20vh;
+  border-radius: 50% 50%;
+}
+.Partnersmain
+  .Partnersectionright
+  .Partnersectiondivright
+  .Partnersectionsubdivright
+  .Partnersectionsubpartdivright {
+  margin-top: 5vh;
+}
+.Partnersmain
+  .Partnersectionright
+  .Partnersectiondivright
+  .Partnersectionsubdivright
+  a {
+  text-decoration: none;
+  color: darkblue;
+  font-weight: 700;
+  font-size: 15px;
+}
+.Partnersmain .Partneratag {
+  text-decoration: none;
+  color: blue;
+  margin-left: 3vw;
+}
+.Partnersmain button {
+  color: white;
+  background-color: blue;
+}
+.Partnersmain .Partnersectionright button {
+  color: white;
+  background-color: rgb(18, 18, 208);
+  border-radius: 20px 20px;
+  margin-top: 6vh;
+  width: 13vw;
+  height: 6vh;
+  border-style: none;
+  margin-left: 5vw;
+}
+.CaseStudies {
+  width: 100%;
+}
+.CaseStudies h1 {
+  font-size: 50px;
+  margin-left: 12vw;
+  margin-top: 13vh;
+}
+.CaseStudies .CaseStudiessubsection {
+  display: flex;
+  gap: 7vw;
+}
+.CaseStudies .CaseStudiessubsection .CaseStudiessubsectiondiv {
+  margin-top: 5vh;
+  margin-left: 12vw;
+}
+.CaseStudies .CaseStudiessubsection .CaseStudiessubsectiondiv a {
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+}
+.CaseStudies .CaseStudiessubsection .CaseStudiessubsectiondiv p {
+  width: 25vw;
+  margin-top: 5vh;
+}
+.CaseStudies .CaseStudiessubsection .CaseStudiessubsectiondiv button {
+  background-color: blue;
+  color: white;
+  width: 10vw;
+  height: 5vh;
+  border-style: none;
+  border-radius: 20px 20px;
+}
+.CaseStudies .CaseStudiesimg img {
+  width: 38vw;
+  height: 40vh;
+  border-radius: 20px 20px;
+}
+.Blog {
+  width: 100%;
+
+  margin-top: 10vh;
+}
+.Blog h1 {
+  font-size: 50px;
+  text-align: center;
+}
+.Blog .Blogmain {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 4vw;
+  margin-top: 7vh;
+}
+.Blog .Blogmain img {
+  border-radius: 43% 57% 55% 45% / 70% 67% 33% 30%;
+  width: 30vw;
+}
+.Blog .Blogmain .Blogsubmain a {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+}
+.Blog .Blogmain .Blogsubmain p {
+  width: 26vw;
+  margin-top: 3vh;
+  font-weight: 200;
+}
+.Blog .Blogmain .Blogsubmain .Blogatag {
+  font-size: 16px;
+  color: blue;
+  text-decoration: none;
+}
+.Blog1 {
+  width: 100%;
+  display: flex;
+}
+.Blog1 .Blog1main {
+  margin-left: 12vw;
+  margin-top: 15vh;
+}
+.Blog1 .Blog1main img {
+  width: 30vw;
+  border-radius: 10px 10px;
+}
+.Blog1 .Blog1main .Blog1button button {
+  margin-top: 5vh;
+  margin-left: 5px;
+  border-radius: 20px 20px;
+  color: blue;
+  border-style: none;
+  font-size: 15px;
+}
+.Blog1 .Blog1main .Blog1button a {
+  width: 20vw;
+  text-decoration: none;
+  color: black;
+  font-size: 34px;
+  font-weight: 450;
+}
+.Blog1 .Blog1main .Blog1button .SUSOimage {
+  display: flex;
+  gap: 1vw;
+}
+.Blog1 .Blog1main .Blog1button .SUSOimage img {
+  width: 3vw;
+}
+.Blog1 .Blog1main .Blog1button .SUSOimage h6 {
+  margin-top: 1.9vh;
+  color: rgb(121, 117, 117);
+  font-weight: 500;
+}
+.Blog1 .Blog1main .Blog1button .blog1Atag {
+  font-size: 16px;
+  color: blue;
+  font-weight: 600;
+}
+.Blog1divmain .Buttonbottom {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 7vh;
+  color: white;
+  background-color: rgb(62, 62, 233);
+  border-radius: 20px 20px;
+  width: 12vw;
+  height: 6vh;
+  align-items: center;
+  border-style: none;
+}
+.Footer {
+  display: flex;
+  width: 100%;
+  gap: 7vw;
+  height: 65vh;
+  margin-top: 15vh;
+}
+.Footer .Footer1 {
+  margin-left: 12vw;
+  margin-top: 14vh;
+}
+.Footer .Footer2 {
+  margin-left: 22vw;
+}
+.Footer .Footer2 .Span {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  color: rgb(79, 79, 78);
+}
+.Footer .Footer2 .Span a {
+  color: rgb(79, 79, 78);
+  text-decoration: none;
+}
+.Footer .Footer2 .Follow {
+  margin-top: 3vh;
+}
+.Footer .Footer2 .Follow h6 {
+  color: rgb(16, 16, 15);
+}
+.Footer .Footer2 .Follow a {
+  color: rgb(79, 79, 78);
+}
+.Footer .Footer2 .Follow a i {
+  color: blue;
+}
+.Footer .Footer3 .Address {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+.Footer .Footer3 .Address span {
+  color: rgb(79, 79, 78);
+}
+.Footer3 .BlankFooter3 {
+  width: 12vw;
+  height: 22vh;
+  background-color: rgba(224, 246, 247, 0.585);
+  border-radius: 43% 57% 55% 45% / 70% 67% 39% 20%;
+  position: absolute;
+  top: 0px;
+  margin-left: 15vw;
+}
+.Footer .Footer3 {
+  position: relative;
+}
+.Footer .Footer2 {
+  position: relative;
+}
+
+.Footer .Footer2 .BlankFooter2 {
+  width: 35vw;
+  height: 55vh;
+  background-color: rgba(224, 246, 247, 0.585);
+  border-radius: 43% 57% 55% 45% / 70% 67% 39% 20%;
+  position: absolute;
+  top: 0;
+  margin-left: -12vw;
+  z-index: -1;
+}
+.Footer .Footer1 {
+  position: relative;
+}
+.Footer .Footer1 .Footer1blank {
+  width: 13vw;
+  height: 17vh;
+  background-color: rgba(224, 246, 247, 0.585);
+  border-radius: 43% 57% 55% 45% / 70% 67% 39% 20%;
+  position: absolute;
+  top: 0;
+  margin-left: 8vw;
+  margin-top: 40vh;
+}
+.Blankmaindiv {
+  width: 100%;
+  display: flex;
+  /* height: 100vh; */
+}
+.Blankmaindiv .Blankdiv {
+  width: 7vw;
+  height: 15vh;
+  background-color: rgba(224, 246, 247, 0.585);
+  border-radius: 43% 57% 55% 45% / 90% 87% 79% 70%;
+}
+.Blankdiv {
+  animation: rotation 35s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(50deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.SEOabsolute {
+  position: relative;
+}
+.Blankmaindiv {
+  position: absolute;
+  top: 0;
+}
